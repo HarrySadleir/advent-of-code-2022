@@ -1,6 +1,6 @@
 
 fn main() {
-    let contents = std::fs::read_to_string("./src/bin/a_input.txt").unwrap();
+    let contents = std::fs::read_to_string("./src/bin/1_input.txt").unwrap();
 
     let mut sums: Vec<u32> = contents
         .split("\n\n")
